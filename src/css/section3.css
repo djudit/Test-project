@@ -1,0 +1,19 @@
+.item {
+    color: blueviolet;
+}
+
+.list {
+    color: aqua;
+}
+
+@media only screen and (min-width: 428px) {
+.list {
+    color: black;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+.list {
+    color: red;
+  }
+}
